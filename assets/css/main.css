@@ -62,7 +62,7 @@ h6 {
 --------------------------------------------------------------*/
 section {
   overflow: hidden;
-  padding: 80px 0;
+    padding: 80px 0;
 }
 
 .section-header {
@@ -92,7 +92,7 @@ section {
 }
 
 .section-header p {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1042,6 +1042,43 @@ section {
 .team .team-member:hover .social {
   opacity: 1;
 }
+
+/*--------------------------------------------------------------
+# tabela Cards Section
+--------------------------------------------------------------*/
+
+.container24 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table-list24 {
+  list-style: none;
+  padding: 0;
+}
+
+.table-list24 li {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Services Cards Section
