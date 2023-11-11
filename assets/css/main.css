@@ -2095,6 +2095,9 @@ th {
   color: #1B2F45;
 }
 
+/*--------------------------------------------------------------
+# BOTÃO CTA PRECO
+--------------------------------------------------------------*/
 .custom-button {
   display: inline-block;
     width: 100%;
@@ -2110,8 +2113,7 @@ th {
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    animation: none;
-}
+   }
 
 .custom-button i {
     margin-right: 1px; /* Ajuste a margem conforme necessário */
@@ -2120,10 +2122,6 @@ th {
 
 .custom-button:hover {
     background-color: #1B2F45; /* Cor de fundo ao passar o mouse */
-    animation: pulse 4s infinite;
-}
-
-
 }
 
 /*--------------------------------------------------------------
